@@ -48,6 +48,7 @@ Version ubuntu16.04-py3-tf-alpha-gpu
         wget
 
     # pip
+    python3 -m pip install --upgrade python
     python3 -m pip install --upgrade setuptools pip
     python3 -m pip install --no-cache-dir --upgrade tf-nightly-gpu tf-agents-nightly tfp-nightly tensorflow-datasets
     python3 -m pip install --no-cache-dir matplotlib seaborn scikit-image numpy
