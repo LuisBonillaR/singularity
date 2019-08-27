@@ -50,6 +50,6 @@ Version ubuntu16.04-py3-tf-alpha-gpu
     # pip
     python3 -m pip install --upgrade setuptools pip
     python3 -m pip install --no-cache-dir --upgrade tf-nightly-gpu tf-agents-nightly tfp-nightly tensorflow-datasets
-    python3 -m pip install --no-cache-dir matplotlib seaborn scikit-image numpy
+    python3 -m pip install --no-cache-dir matplotlib seaborn scikit-image
     python3 -m pip install --no-cache-dir 'gym[atari,box2d,classic_control]'
     python3 -m pip install https://github.com/gnperdue/gym-oscillator/zipball/master
