@@ -47,7 +47,7 @@ Version ubuntu16.04-py3-tf-alpha-gpu
         zip \
         wget
 
-    # pip
+    # pip 
     python3 -m pip install --upgrade pip setuptools
     python3 -m pip install --no-cache-dir --upgrade tensorflow-gpu tensorflow-probability tensorflow-datasets
     python3 -m pip install --no-cache-dir h5py matplotlib pandas numpy matplotlib seaborn scikit-image tables multitables tftables
