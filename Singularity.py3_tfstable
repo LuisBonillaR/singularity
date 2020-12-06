@@ -16,7 +16,7 @@ Version ubuntu16.04-py3-tf-alpha-gpu
 %post
     # not sure if they all are required?
     # add wilson cluster mount points
-    mkdir /scratch /data /lfstev
+    mkdir /scratch /data /lfstev /nashome
 	##### INSTALL ALL DEPENDENCIES #####
 
     apt update && apt install -y --no-install-recommends \
